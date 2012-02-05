@@ -34,4 +34,4 @@ _ReSharper*/
 .git
 
 #Nuget packages
-packages/*
+#packages/*
