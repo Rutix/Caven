@@ -1,13 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Numerics;
-using System.Text;
 
-namespace Caven.Common
+namespace Caven.Common.Windows
 {
-    class HammingWindow
+    class HammingWindow : IWindowFunction
     {
+        public void WindowInPlace(float[] outerspace, int windowLength)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void WindowInPlace(Complex[] outerspace, int windowLength)
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// Gets the hamming window.
         /// </summary>

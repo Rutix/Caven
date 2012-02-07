@@ -1,10 +1,20 @@
 using System;
 using System.Numerics;
 
-namespace Caven.Common
+namespace Caven.Common.Windows
 {
-    class HanningWindow
+    class HanningWindow : IWindowFunction
     {
+        public void WindowInPlace(float[] outerspace, int windowLength)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void WindowInPlace(Complex[] outerspace, int windowLength)
+        {
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// Gets the hanning window fucntion.
         /// </summary>
