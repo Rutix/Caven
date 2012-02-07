@@ -3,23 +3,18 @@ using System.Numerics;
 
 namespace Caven.Common.Windows
 {
+    /// <summary>
+    /// Hamming Window class
+    /// </summary>
     class HammingWindow : IWindowFunction
     {
-        public void WindowInPlace(float[] outerspace, int windowLength)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void WindowInPlace(Complex[] outerspace, int windowLength)
-        {
-            throw new NotImplementedException();
-        }
-
         /// <summary>
         /// Gets the hamming window.
         /// </summary>
         /// <param name="length">The length.</param>
-        /// <returns></returns>
+        /// <returns>
+        /// Window function
+        /// </returns>
         public Complex[] GetWindow(int length)
         {
             var array = new Complex[length];
