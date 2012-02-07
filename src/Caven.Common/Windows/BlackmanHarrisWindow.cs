@@ -8,16 +8,6 @@ namespace Caven.Common.Windows
     /// </summary>
     class BlackmanHarrisWindow : IWindowFunction
     {
-        public void WindowInPlace(float[] outerspace, int windowLength)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void WindowInPlace(Complex[] outerspace, int windowLength)
-        {
-            throw new NotImplementedException();
-        }
-
         /// <summary>
         /// Gets the Blackman-Harris window.
         /// </summary>
